@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OneScreenApp</string>
+    <string name="fundation">TOKOT Fundation</string>
+    <string name="our_goals">Our main goals and activities:</string>
+    <string name="firstGoal">* treating and adopting homeless kittens</string>
+    <string name="secondGoal">* sterilization of free-living cats in Warsaw</string>
+    <string name="contact">Contact</string>
+    <string name="adress1">Zdrowa 10 street</string>
+    <string name="adress2">02-684 Warsaw</string>
+    <string name="adress3">tel: +48 000 000 000</string>
+    <string name="adress4">e-mail: tokot@tokot.pl</string>
+    <string name="adress5">Opening hours: 24/7</string>
+    <string name="mailTo">tokot@tokot.pl</string>
+    <string name="phoneTo">500561111</string>
+    <string name="website">www.tokot.pl</string>
+    <string name="subject">TOKOT Fundation - application for a volunteer </string>
+</resources>

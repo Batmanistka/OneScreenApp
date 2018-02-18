@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.android.onescreenapp.MainActivity">
+
+    <LinearLayout
+        style="@style/LinearStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            style="@style/LinearStyle"
+            android:layout_width="match_parent"
+            android:layout_height="165dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tokot" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/SecondTextStyle"
+                android:text="@string/fundation" />
+
+            <TextView
+                style="@style/FourthTextStyle"
+                android:text="@string/our_goals" />
+
+            <TextView
+                style="@style/ThirdTextStyle"
+                android:text="@string/firstGoal" />
+
+            <TextView
+                style="@style/ThirdTextStyle"
+                android:text="@string/secondGoal" />
+
+            <TextView
+                style="@style/FourthTextStyle"
+                android:layout_marginTop="15dp"
+                android:text="@string/contact" />
+
+            <TextView
+                style="@style/FirstTextStyle"
+                android:text="@string/adress1" />
+
+            <TextView
+                style="@style/FirstTextStyle"
+                android:text="@string/adress2" />
+
+            <TextView
+                style="@style/FirstTextStyle"
+                android:text="@string/adress3"
+                android:onClick="makeCall" />
+
+            <TextView
+                style="@style/FirstTextStyle"
+                android:onClick="sendMail"
+                android:text="@string/adress4" />
+
+            <TextView
+                style="@style/FirstTextStyle"
+                android:onClick="sendMail"
+                android:text="@string/adress5" />
+
+            <TextView
+                style="@style/LinkStyle"
+                android:text="@string/website"
+                android:textColorLink="#757575" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
